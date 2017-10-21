@@ -20,24 +20,36 @@
 
 
         <!-- Header bar including name and section buttons/transitions -->
-        <div class="topbar">
+        <header class="topbar">
             <span class="topbar_name"> Jack Pietrok </span>
-            <span class="topbar_buttons"> Buttonlist </span>
-        </div>
+        </header>
         
         <!-- Main portion of the homepage. Contains background image, portrait, contact info, and social media -->
-        <span class="main">
-            <img src="img/profile_pic.jpg" alt="Profile Picture" width="312" height="312" style="border-radius: 50px; border:4px solid rgb(16, 42, 46); margin:10px; position: relative;">
-            <div>
-                <p class="contact_info"> Jack Pietrok </p>
-                <p class="contact_info"> jackpietrok@gmail.com </p>
-                <p class="contact_info"> Computer Engineering Student </p>
-            </div>
-        </span>
-        
-        <span class="main">
+        <div class="main">
             
-        </span>
+            <img alt="Profile Picture" id="profile_pic" src="img/profile_pic.jpg" height="312" width="312">
+            <div id="contact_info">
+                <p>Jack Pietrok</p>
+                <p>jackpietrok@gmail.com</p>
+                <p>Computer Engineering Student</p>
+            </div>
+            
+            <div id="social_media">
+                <a href="https://www.linkedin.com/in/jack-pietrok-06b375141">
+                    <img alt="LinkedIn" src="img/linkedin-icon.png" height="64" width="64">
+                </a>
+                <a href="https://www.facebook.com/jack.pietrok">
+                    <img alt="Facebook" src="img/facebook-icon.png" height="64" width="64">
+                </a>
+                <a href="https://twitter.com/jack_pietrok">
+                    <img alt="Twitter" src="img/twitter_icon.png" height="64" width="64">
+                </a>
+                <a href="https://github.com/jackpietrok">
+                    <img alt="Github" src="img/github-icon.png" height="64" width="64">
+                </a>
+            </div>
+            
+        </div>
         
 
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
