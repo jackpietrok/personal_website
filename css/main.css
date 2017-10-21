@@ -109,13 +109,20 @@ body {
     margin: 0px;
 }
 
-.title_name {
+.topbar_name {
     color: white;
     vertical-align: middle;
     left: 0;
 }
 
-
+.contact_info {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+}
 
 
 
