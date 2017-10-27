@@ -99,6 +99,7 @@ textarea {
 
 body {
     background-image: url("../img/tiled_background.jpg");
+    background-attachment: fixed;
     overflow: auto;
     margin: 0;
 }
@@ -111,21 +112,47 @@ header {
     font-family: verdana;
 }
 
+.name {
+    margin-left: 10%;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.tabs {
+    width: auto;
+    position: absolute;
+    right: 0px;
+    margin-right: 10%;
+    color: lightblue;
+    margin-left: 10%;
+}
+
+.tabs > span {
+    padding: 10px;
+}
+
+.tabs :hover {
+    color: white;
+}
+
 .profile {
     margin: auto;
-    width: 50%;
     display: block;
 }
 
 .info {
     display: inline-block;
     margin: 10%;
+    margin-top: 50px;
     vertical-align: top;
     background-color: #0c2533;
     color: white;
     padding: 15px;
-    height: 312px;
+    height: auto;
     width: auto;
+    font-family: verdana;
 }
 
 #profile_pic {
