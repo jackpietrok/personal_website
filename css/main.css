@@ -146,6 +146,7 @@ header {
     display: inline-block;
     margin: 10%;
     margin-top: 50px;
+    margin-bottom: 25px;
     vertical-align: top;
     background-color: #0c2533;
     color: white;
@@ -168,6 +169,10 @@ header {
 #social_media {
     margin: auto;
     width: 272px;
+}
+
+#social_media > a :hover {
+    opacity: .5;
 }
 
 
