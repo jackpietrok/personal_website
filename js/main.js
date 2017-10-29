@@ -36,14 +36,14 @@ $('#aboutMeTab').click(function() {
     return false;
 });
 
-$('#projectsTab').click(function() {
-    var scroll = $("#projects").offset().top - 10;
+$('#skillsTab').click(function() {
+    var scroll = $("#skills").offset().top - 10;
     $("html, body").animate({ scrollTop: scroll }, "slow");
     return false;
 });
 
-$('#skillsTab').click(function() {
-    var scroll = $("#skills").offset().top - 10;
+$('#experienceTab').click(function() {
+    var scroll = $("#experience").offset().top - 10;
     $("html, body").animate({ scrollTop: scroll }, "slow");
     return false;
 });
